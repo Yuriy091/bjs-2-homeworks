@@ -8,7 +8,7 @@ function getArrayParams(...arr) {
     if (x > max) {
       max = x;
     }
-    else  if (x < min) {
+    if (x < min) {
       min = x;
     };
     sum += x;
